@@ -63,7 +63,7 @@ ul {
   background-color: #2e2f42;
 }
 
-.section-1-title {
+.section-first-title {
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 56px;
@@ -135,6 +135,7 @@ ul {
   background-color: #ffffff;
 }
 .team-list-item {
+  background-color: #ffffff;
 }
 .team-list-img {
 }
