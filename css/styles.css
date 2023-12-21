@@ -11,8 +11,9 @@ ul {
 }
 
 .logo {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE, #4d5ae5);
   font-size: 18px;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -20,7 +21,7 @@ ul {
 }
 
 .logo span {
-  color: var(--IRIS, #4d5ae5);
+  color: var(--IRIS, #2e2f42);
 }
 
 .header-list-item {
@@ -37,6 +38,9 @@ ul {
 .header-list-a:focus,
 .header-list-a:active {
   color: #404bbf;
+}
+.address {
+  font-style: normal;
 }
 
 .address-list-a {
@@ -56,7 +60,7 @@ ul {
 /**----------------------*/
 /**--------SECTION1-----*/
 
-.section-1 {
+.section-feature-first {
   background-color: #2e2f42;
 }
 
@@ -68,19 +72,21 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-.section-1-btn {
+.section-feature-btn {
   color: var(--WHITE, #fff);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
+  background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  /* border-radius: 4px;
-  background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+  cursor: pointer;
 }
-
-.visually-hidden {
+.section-feature-btn:hover,
+.section-feature-btn:focus {
+  background-color: #404bbf;
+}
+.visually-hidden-feature {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -150,7 +156,7 @@ ul {
 /**----------------------*/
 /**--------SECTION4-----*/
 
-.section-4 {
+.section-portfolio-our {
 }
 .portfolio-title {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -162,6 +168,7 @@ ul {
   text-transform: capitalize;
 }
 .portfolio-list {
+  background-color: #ffffff;
 }
 .portfolio-list-item {
 }
@@ -189,15 +196,16 @@ ul {
 }
 
 .footer-logo {
-  color: #f4f4fd;
+  color: var(--NAVY-BLUE, #4d5ae5);
   font-size: 18px;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-logo span {
-  color: var(--IRIS, #4d5ae5);
+  color: var(--IRIS, #f4f4fd);
 }
 .footer-text {
   color: var(--CLOUD, #f4f4fd);
