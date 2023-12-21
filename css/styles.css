@@ -1,5 +1,5 @@
-.body {
-  font-family: "roboto", sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   background: var(--WHITE, #fff);
   color: #434455;
 }
@@ -39,7 +39,7 @@ ul {
 .header-list-a:active {
   color: #404bbf;
 }
-.address {
+.adress {
   font-style: normal;
 }
 
@@ -49,7 +49,6 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 .address-list-a:hover,
 .address-list-a:focus,
@@ -120,7 +119,7 @@ ul {
 }
 /**----------------------*/
 /**--------SECTION3-----*/
-.section-3 {
+.section-our-team {
   background: var(--CLOUD, #f4f4fd);
 }
 .team-title {
@@ -133,6 +132,7 @@ ul {
   text-transform: capitalize;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-list-item {
 }
@@ -204,9 +204,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-logo span {
-  color: var(--IRIS, #f4f4fd);
+.footer span {
+  color: #f4f4fd;
 }
+
 .footer-text {
   color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
