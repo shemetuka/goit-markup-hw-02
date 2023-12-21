@@ -85,7 +85,7 @@ ul {
 .section-feature-btn:focus {
   background-color: #404bbf;
 }
-.visually-hidden-feature {
+/* .visually-hidden-feature {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -97,7 +97,7 @@ ul {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /**----------------------*/
 /**--------SECTION2-----*/
