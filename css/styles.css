@@ -86,12 +86,12 @@ ul {
   background-color: #404bbf;
 }
 .visually-hidden-feature {
-  position: absolute;
+  /* position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
+  padding: 0; */
 
   white-space: nowrap;
   clip-path: inset(100%);
@@ -205,7 +205,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer span {
+.footer .logo span {
   color: #f4f4fd;
 }
 
